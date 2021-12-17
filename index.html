@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FetchAPI</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <script src="./index.js"></script>
+    <body>
+      <section>
+        <div class="blob">
+          <svg
+            viewBox="0 0 500 500"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="100%"
+            id="blobSvg"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: rgb(233, 100, 67)"></stop>
+                <stop
+                  offset="100%"
+                  style="stop-color: rgb(144, 78, 149)"
+                ></stop>
+              </linearGradient>
+            </defs>
+            <path id="blob" fill="url(#gradient)">
+              <animate
+                attributeName="d"
+                dur="4000ms"
+                repeatCount="indefinite"
+                values="M404.5,327Q339,404,244,414.5Q149,425,92.5,337.5Q36,250,90.5,159Q145,68,250,68Q355,68,412.5,159Q470,250,404.5,327Z;
+                   M398.5,328Q340,406,240,423Q140,440,95,345Q50,250,98.5,161Q147,72,246.5,78Q346,84,401.5,167Q457,250,398.5,328Z;
+                   M408,348Q363,446,249,447.5Q135,449,85.5,349.5Q36,250,96,168.5Q156,87,255,78.5Q354,70,403.5,160Q453,250,408,348Z;
+                   M400,343Q357,436,242,449.5Q127,463,66.5,356.5Q6,250,81.5,169.5Q157,89,247.5,93Q338,97,390.5,173.5Q443,250,400,343Z;
+                   M423,352.5Q368,455,258.5,439.5Q149,424,102,337Q55,250,102.5,163Q150,76,255,67.5Q360,59,419,154.5Q478,250,423,352.5Z;
+                   M400.91647,330.94227Q343.81328,411.88454,244.82924,420.57126Q145.84521,429.25798,79.91647,339.62899Q13.98773,250,76.73588,154.06143Q139.48403,58.12286,238.17445,78.54177Q336.86487,98.96067,397.44227,174.48034Q458.01966,250,400.91647,330.94227Z;
+                   M424.76488,346.88473Q361.63587,443.76945,258.1958,429.38015Q154.75572,414.99085,94.57137,332.49542Q34.38702,250,84.56679,150.55993Q134.74657,51.11985,239,70.11985Q343.25343,89.11985,415.57366,169.55993Q487.89388,250,424.76488,346.88473Z"
+              ></animate>
+            </path>
+          </svg>
+          <h2><span>comming</span> <span>soon</span></h2>
+        </div>
+      </section>
+      <div>
+        <!-- <a class="btn-next" href="https://www.w3schools.com/"> Next Action </a> -->
+        <button class="btn-next" onclick="getAPI()"> Show API</button>
+       
+      </div>
+      
+      <div id="table-api" style="display: none;">
+        
+      </div> 
+    </div>
+    </body>
+  </body>
+</html>
